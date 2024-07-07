@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Weather App</h1>
-        <form id="weatherForm">
-            <input type="text" id="cityInput" placeholder="Enter city name">
-            <input type="number" id="latInput" placeholder="Enter latitude" step="any">
-            <input type="number" id="lonInput" placeholder="Enter longitude" step="any">
-            <button type="submit">Get Weather</button>
-        </form>
-        <div id="weatherResult" class="hidden">
-            <h2>Weather in <span id="cityName"></span></h2>
-            <p id="description"></p>
-            <p>Temperature: <span id="temperature"></span>°C</p>
+    <div id="header-container" class="ui inverted segment">
+        <div class="ui inverted secondary menu">
+           <h1 id="header-text">Pokemon Directory</h1>
         </div>
     </div>
-    <script src="script.js"></script>
+    <div id="container">
+        <div id="poke-container" class="ui cards">
+                <button id="generate-pokemon" class="ui secondary button">Generate Pokemon</button>
+        </div>
+    </div>
+    <div id="delete-container">
+        <button id="delete-btn" class="ui red button">Delete</button>
+    </div>
 </body>
 </html>
