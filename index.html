@@ -10,7 +10,9 @@
     <div class="container">
         <h1>Weather App</h1>
         <form id="weatherForm">
-            <input type="text" id="cityInput" placeholder="Enter city name" required>
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <input type="number" id="latInput" placeholder="Enter latitude" step="any">
+            <input type="number" id="lonInput" placeholder="Enter longitude" step="any">
             <button type="submit">Get Weather</button>
         </form>
         <div id="weatherResult" class="hidden">
