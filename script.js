@@ -4,7 +4,7 @@ document.getElementById('weatherForm').addEventListener('submit', function(event
     const city = document.getElementById('cityInput').value.trim();
     const lat = document.getElementById('latInput').value.trim();
     const lon = document.getElementById('lonInput').value.trim();
-    const apiKey = 'c8b59ad4d0bfff967e0c2214c6c8ce45'; 
+    const apiKey = 'your_api_key'; 
     let url = '';
     
     if (city && (lat || lon)) {
