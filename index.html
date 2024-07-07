@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book Search</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Jokes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Book Search</h1>
-    <input type="text" id="searchInput" placeholder="Search by title or author">
-    <button onclick="searchBooks()">Search</button>
-  </header>
-  <main>
-    <div id="bookList"></div>
-  </main>
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Random Jokes</h1>
+        <button id="fetchJokesButton">Fetch Jokes</button>
+        <div id="jokesContainer"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
