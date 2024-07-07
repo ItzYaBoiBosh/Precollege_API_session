@@ -1,33 +1,53 @@
-html,body{
-    height: 100%;
-    width: 100%;
-}
-
-#container {
-    margin: auto;
-}
-
-#poke-container {
-    margin: auto;
-    width: 90%;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #c499ff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  header input {
+    width: 60%;
     padding: 10px;
-}
-
-#header-container {
-    border-radius: 0px !important;
-}
-
-#header-text{
-    margin: 0 auto;
-}
-
-#generate-pokemon {
-    margin: 0 auto;
-}
-
-#delete-btn {
-    position: absolute;
-    left: 85%;
-    display: none;
-    margin-bottom: 5%;
-}
+    margin: 10px 0;
+  }
+  
+  header button {
+    padding: 10px 20px;
+    background-color: #ffb638;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  header button:hover {
+    background-color: #f4d586;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .book-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .book-title {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .book-author {
+    color: #555;
+  }
+  
